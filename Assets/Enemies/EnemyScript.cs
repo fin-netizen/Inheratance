@@ -1,13 +1,18 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class EnemyScript : MonoBehaviour
 {
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
+    protected void DebugText(string text)
+    {
 
+    }
     // Update is called once per frame
     void Update()
     {
@@ -25,5 +30,6 @@ public class EnemyScript : MonoBehaviour
     private void OnMouseExit()
     {
         transform.GetComponent<SpriteRenderer>().color = Color.white;
+        
     }
 }
