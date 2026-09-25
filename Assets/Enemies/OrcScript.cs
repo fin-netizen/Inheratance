@@ -15,6 +15,6 @@ public class GoblinScript : EnemyScript
     }
     public override void AttackPlayer()
     {
-        print("Orc is attacking player");
+        variable.text = "orc is attacking player";
     }
 }

@@ -15,6 +15,6 @@ public class ArmouredGoblinScri : GoblinScript
     }
     public override void AttackPlayer()
     {
-        print("Armoured Orc is attacking player");
+        variable.text = "Armoured orc is attacking player";
     }
 }

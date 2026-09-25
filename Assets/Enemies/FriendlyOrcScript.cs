@@ -15,6 +15,6 @@ public class FriendlyGoblinScript : GoblinScript
     }
     public override void AttackPlayer()
     {
-        print("Friendly orc is attacking player");
+        variable.text = "friendly orc is attacking player";
     }
 }

@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93a7d4cd8bb39a840b1e4da6e1705ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FriendlyGoblinScript
+  variable: {fileID: 574531241}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,7 +421,7 @@ GameObject:
   - component: {fileID: 574531242}
   - component: {fileID: 574531241}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,6 +698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889f20cc041f3f24fac23e77cf6e573a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WerewolfScript
+  variable: {fileID: 574531241}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e352a0b23dc4ad846946a8f0392864c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoblinScript
+  variable: {fileID: 574531241}
 --- !u!1 &850898647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72dc8d09ae7d3024e87d60bd316ef045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmouredGoblinScri
+  variable: {fileID: 574531241}
 --- !u!1 &1999607329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,6 +1365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5140c3a18e661b44483055ad5a2ab007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ElfScript
+  variable: {fileID: 574531241}
 --- !u!1 &2143357452
 GameObject:
   m_ObjectHideFlags: 0

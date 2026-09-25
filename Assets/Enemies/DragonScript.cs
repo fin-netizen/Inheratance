@@ -16,6 +16,6 @@ public class ElfScript : EnemyScript
     }
     public override void AttackPlayer()
     {
-        print("Dragon is attacking player");
+        variable.text = "Dragon is attacking player";
     }
 }

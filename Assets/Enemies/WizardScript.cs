@@ -15,6 +15,6 @@ public class WerewolfScript : EnemyScript
     }
     public override void AttackPlayer()
     {
-        print("Wizard is attacking player");
+        variable.text = "Wizard is attacking player";
     }
 }
